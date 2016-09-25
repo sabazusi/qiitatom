@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle qiitatom",
+        "command": "qiitatom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "qiitatom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "qiitatom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "qiitatom",
+  "main": "./lib/qiitatom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "qiitatom:toggle"
+  },
+  "repository": "https://github.com/atom/qiitatom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
