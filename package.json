@@ -4,9 +4,6 @@
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "qiitatom:toggle"
-  },
   "repository": "https://github.com/atom/qiitatom",
   "license": "MIT",
   "engines": {
