@@ -5,6 +5,111 @@
 @import "ui-variables";
 
 
-.modalContents {
-  color: #ff0000;
+.qiitatom {
+  height: 100px;
+}
+
+.headerLabel {
+  font-size: 16px;
+}
+
+.qiitatomForms {
+  margin-top: 10px;
+}
+
+.qiitaSearchRadioButton {
+  margin-right: 5px !important;
+}
+
+.qiitaSearchRadioButtonLabel {
+  margin-right: 10px !important;
+}
+
+.qiitatomButtons {
+  padding-left: 160px;
+}
+
+.qiitatomSearchButton {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin-right: 10px;
+
+  &[disabled] {
+    color: #777;
+    background-color: #666;
+    border: 1px solid #666;
+  }
+}
+
+.qiitatomCancelButton {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+
+
+.qiitatomSearchResultView {
+  padding: 10px;
+  overflow: scroll;
+}
+
+.qiitatomResultViewHeaderLabel {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.qiitatomSearchQuery {
+  font-weight: bold;
+}
+
+.qiitatomResultViewItemContainer {
+  min-height: 610px;
+}
+
+.qiitatomResultViewItem {
+  -webkit-user-select: none;
+  color: #555;
+  min-height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+  background: #eee;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.qiitatomResultViewItemTitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.qiitatomResultViewPager {
+  margin-top: 20px;
+  span {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #000;
+    background-color: #bbb;
+    border: 3px solid #bbb;
+    border-radius: 4px;
+  }
+}
+
+.qiitatomBackToResultViewButton {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: #333;
+  margin-bottom: 10px;
+
+  span {
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+  }
 }
