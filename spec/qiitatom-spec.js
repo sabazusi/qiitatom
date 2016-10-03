@@ -15,7 +15,7 @@ describe('Qiitatom', () => {
     activationPromise = atom.packages.activatePackage('qiitatom');
   });
 
-  describe('when the qiitatom:toggle event is triggered', () => {
+  describe('when the qiitatom:search event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -23,7 +23,7 @@ describe('Qiitatom', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'qiitatom:toggle');
+      atom.commands.dispatch(workspaceElement, 'qiitatom:search');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('Qiitatom', () => {
 
         let qiitatomPanel = atom.workspace.panelForItem(qiitatomElement);
         expect(qiitatomPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'qiitatom:toggle');
+        atom.commands.dispatch(workspaceElement, 'qiitatom:search');
         expect(qiitatomPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('Qiitatom', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'qiitatom:toggle');
+      atom.commands.dispatch(workspaceElement, 'qiitatom:search');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('Qiitatom', () => {
         // Now we can test for view visibility
         let qiitatomElement = workspaceElement.querySelector('.qiitatom');
         expect(qiitatomElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'qiitatom:toggle');
+        atom.commands.dispatch(workspaceElement, 'qiitatom:search');
         expect(qiitatomElement).not.toBeVisible();
       });
     });

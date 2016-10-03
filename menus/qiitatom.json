@@ -2,8 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle qiitatom",
-        "command": "qiitatom:toggle"
+        "label": "Search qiitatom",
+        "command": "qiitatom:search"
+      },
+      {
+        "label": "Post qiitatom",
+        "command": "qiitatom:post"
       }
     ]
   },
@@ -15,8 +19,12 @@
           "label": "qiitatom",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "qiitatom:toggle"
+              "label": "Search",
+              "command": "qiitatom:search"
+            },
+            {
+              "label": "Post",
+              "command": "qiitatom:post"
             }
           ]
         }
