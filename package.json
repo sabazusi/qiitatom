@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "atom-space-pen-views": "^2.2.0",
-    "qiita-js": "^0.4.3",
+    "axios": "^0.15.0",
     "react-markdown": "^2.4.2"
   },
   "devDependencies": {
