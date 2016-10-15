@@ -5,8 +5,10 @@
 @import "ui-variables";
 
 
+
 .qiitatom {
   height: 100px;
+  font-weight: 500;
 }
 
 .qiitatom__search-cover {
@@ -30,7 +32,8 @@
   color: #000;
   background-color: #fff;
   border: 1px solid #bbb;
-  border-radius: 4px;
+  border-radius: 2px;
+  float: right;
 }
 
 .qiitatomForms {
@@ -53,7 +56,7 @@
   color: #000;
   background-color: #fff;
   border: 1px solid #bbb;
-  border-radius: 4px;
+  border-radius: 2px;
   margin-right: 10px;
 
   &[disabled] {
@@ -67,8 +70,35 @@
   color: #000;
   background-color: #fff;
   border: 1px solid #bbb;
-  border-radius: 4px;
+  border-radius: 2px;
 }
+
+.qiitatom__authpanel__infolabel {
+  font-size: 14px;
+}
+
+.qiitatom__authpanel__infolabel:nth-child(2)::before {
+  content: "\A" ;
+	white-space: pre ;
+}
+
+.qiitatom__authpanel__buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.qiitatom__authpanel__input {
+  margin-top: 5px;
+}
+.qiitatom__authpanel__getcodebutton,
+.qiitatom__authpanel__authbutton
+{
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
 
 // result-view
 
