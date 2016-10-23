@@ -1,6 +1,13 @@
 # Qiitatom
 Qiita search/view/post client for atom editor.
+ - Search posts from Qiita by title, tags or keyword.
+ - Post your editing file to Qiita with preview.
 
-A short description of your package.
+## Search posts by (title|tags|keyword)
+![qiitatom_search](./screenshot.gif =480x480)
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+### Usage
+Type `Qiitatom:Search` in your command pallet.
+
+### Installation
+TODO
