@@ -166,17 +166,50 @@
   }
 }
 
+.qiitatom__result__content-container {
+  color: #222;
+  a {
+    color: #888;
+    text-decoration: underline;
+  }
+  code {
+    color: #888;
+    font-weight: lighter;
+    background-color: #ddd;
+  }
+  pre {
+    code {
+      background: #161719;
+    }
+  }
+}
+
 .qiitatomBackToResultViewButton {
   display: flex;
   align-items: center;
-  height: 30px;
-  background-color: #333;
+  min-height: 38px;
+  background-color: #bbd4c2;
   margin-bottom: 10px;
+  text-align: center;
 
-  span {
+  span:first-child {
+    min-width: 110px;
     cursor: pointer;
-    font-size: 15px;
-    color: #fff;
+    font-size: 11px;
+    color: #e2e2e2;
+    margin-left: 4px;
+    background-color: #74b58a;
+    border: 2px solid #3ba15b;
+    border-radius: 4px;
+    padding: 2px;
+  }
+  span:nth-child(2) {
+    color: #73a87e;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+    margin: 3px;
   }
 }
 

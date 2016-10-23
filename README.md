@@ -1,4 +1,5 @@
-# qiitatom package
+# Qiitatom
+Qiita search/view/post client for atom editor.
 
 A short description of your package.
 
