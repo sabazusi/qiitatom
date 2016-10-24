@@ -6,8 +6,8 @@ Qiita search/view/post client for atom editor.
 ## Search posts by (title|tags|keyword)
 <img src='./screenshot.gif' width="320">
 
-### Usage
-Type `Qiitatom:Search` in your command pallet.
+## Usage
+Type `Qiitatom:Search` or `Qiitatom:Post` in your command pallet.
 
-### Installation
+## Installation
 TODO
