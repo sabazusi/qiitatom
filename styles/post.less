@@ -34,9 +34,33 @@
       }
     }
   }
-  &__preview {
+  &-preview {
     &__container {
       overflow: hidden;
+      &__buttons {
+        display: flex;
+        align-items: center;
+        min-height: 38px;
+        background-color: #bbd4c2;
+        margin-bottom: 10px;
+        text-align: center;
+        &--label {
+        }
+        &--button {
+          &-ok,
+          &-cancel {
+            min-width: 50px;
+            font-size: 14px;
+            cursor: pointer;
+            color: #e2e2e2;
+            margin-left: 4px;
+            background-color: #74b58a;
+            border: 2px solid #3ba15b;
+            border-radius: 4px;
+            padding: 2px;
+          }
+        }
+      }
     }
   }
 }
