@@ -37,27 +37,65 @@
   &-preview {
     &__container {
       overflow: hidden;
-      &__buttons {
-        display: flex;
-        align-items: center;
-        min-height: 38px;
+      &__forms {
         background-color: #bbd4c2;
-        margin-bottom: 10px;
-        text-align: center;
-        &--label {
+        &__inputdetail {
+          display: flex;
+          flex-direction: column;
+          color: #000;
+          &--label {
+            &-title {
+              font-size: 12px;
+              margin-bottom: 3px;
+              span {
+                font-weight: bold;
+              }
+            }
+            &-tags {
+              font-size: 12px;
+              margin-bottom: 3px;
+              span {
+                margin-right: 5px;
+                background-color: #6cbe30;
+                border: 1px solid #2a7a25;
+                border-radius: 3px;
+                padding: 0 5px;
+              }
+            }
+            &-isPublic {
+              font-size: 12px;
+              margin-bottom: 3px;
+              span {
+                font-weight: bold;
+              }
+            }
+            &-info {
+              font-size: 14px;
+              margin-bottom: 5px;
+            }
+          }
         }
-        &--button {
-          &-ok,
-          &-cancel {
-            min-width: 50px;
-            font-size: 14px;
-            cursor: pointer;
-            color: #e2e2e2;
-            margin-left: 4px;
-            background-color: #74b58a;
-            border: 2px solid #3ba15b;
-            border-radius: 4px;
-            padding: 2px;
+        &__buttons {
+          display: flex;
+          align-items: center;
+          min-height: 38px;
+          margin-bottom: 10px;
+          text-align: center;
+          &--label {
+          }
+          &--button {
+            &-ok,
+            &-cancel {
+              min-width: 50px;
+              font-size: 14px;
+              cursor: pointer;
+              color: #e2e2e2;
+              margin-left: 4px;
+              background-color: #74b58a;
+              border: 2px solid #3ba15b;
+              border-radius: 4px;
+              padding: 2px;
+            }
           }
         }
       }
