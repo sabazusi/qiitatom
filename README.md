@@ -4,7 +4,7 @@ Qiita search/view/post client for atom editor.
  - Post your editing file to Qiita with preview.
 
 ## Search posts by (title|tags|keyword)
-<img src='./screenshot.gif' width="480">
+<img src='./screenshot1.gif' width="480">
 
 ## Post markdown in your editor
 <img src='TODO.gif' width="480">
