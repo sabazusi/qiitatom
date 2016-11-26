@@ -7,7 +7,7 @@ Qiita search/view/post client for atom editor.
 <img src='./screenshot1.gif' width="480">
 
 ## Post markdown in your editor
-<img src='TODO.gif' width="480">
+<img src='./screenshot2.gif' width="480">
 
 ## Usage
 Type `Qiitatom:Search` or `Qiitatom:Post` in your command pallet.
